@@ -43,7 +43,7 @@ int main() {
   srand(time(nullptr));
   int section;
   int problem;
-  const int NUMBER_OF_PROBLEMS = 10;
+  const int NUMBER_OF_PROBLEMS = 25;
 
   for (int i = 0; i < NUMBER_OF_PROBLEMS; i++) {
     section = rand() % data.size();
